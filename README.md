@@ -33,3 +33,19 @@ To create a dashboard that provides insights into the top-performing product cat
 
 This will help the marketing team make more informed decisions about which product categories and marketing campaigns that are right to optimize
 
+## Data source
+The data needed to achieve our objective is data on Online Sales of a Popular Marketplace that includes;
+- Order ID
+- Date
+- Category
+- Product Name
+- Quantity Sold
+- Unit Price
+- Total Price
+- Region
+- Payment Method
+
+The data is sourced from Kaggle (an Excel extract), [see here to find it](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data)
+
+
+
