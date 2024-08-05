@@ -22,3 +22,14 @@ KPI Requirements;
 - Average Revenue; The Average revenue generated per sale
 - Total Number of products; The count of the various products sold
 - Average Price; The average price for items sold
+
+What is the ideal solution?
+
+To create a dashboard that provides insights into the top-performing product categories, regions and payment method that includes their;
+- Revenue generated
+- Average Revenue
+- Number of units sold
+- Average Price
+
+This will help the marketing team make more informed decisions about which product categories and marketing campaigns that are right to optimize
+
