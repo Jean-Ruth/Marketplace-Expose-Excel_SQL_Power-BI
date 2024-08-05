@@ -2,5 +2,5 @@
 
 ## Online Marketplace Sales Analysis
 
-![](online marketplace.jpeg)
+![](online marketplace.jpg)
 
