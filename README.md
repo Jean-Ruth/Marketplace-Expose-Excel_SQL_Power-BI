@@ -47,5 +47,77 @@ The data needed to achieve our objective is data on Online Sales of a Popular Ma
 
 The data is sourced from Kaggle (an Excel extract), [see here to find it](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data)
 
+## Stages
+- Design
+- Development
+- Testing
+- Analysis
+
+### 1. Design
+
+#### Dashboard components required
+What should the dashboard contain based on the requirements provided?
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+1.	Which 3 product categories have the highest sales revenue?
+2.	Which 3 product categories have the highest number of products sold?
+3.	Which category has the highest revenue per payment method?
+4.	Which category has the highest revenue per region?
+
+### Charts Requirements
+1.	Overall Total Revenue by Category
+
+     - Objective: Identify the performance of different categories in regards to overall total revenue
+
+     - Additional KPI metrics: Assess how other KPIs (Average Revenue, Number of Products, Average Price) vary by Category
+
+     - Chart Type: Donut Chart
+
+2.	Total Revenue by Payment Method and Category
+
+     - Objective: Compare the Overall Total Revenue across different Payment Methods segmented by Category
+
+     - Additional KPI metrics: Assess how other KPIs (Average Revenue, Number of Products, Average Price) vary across different Payment Methods segmented by Category
+
+     - Chart Type: Clustered Column Chart
+
+3.	Total Revenue by Region
+
+     - Objective: To analyze the performance of different regions in regards to overall total revenue
+
+     - Additional KPI metrics: Assess how other KPIs (Average Revenue, Number of Products, Average Price) vary across different Regions
+
+     - Chart Type: Funnel
+
+4.	All Metrics by Month
+
+     - Objective: Provide a comprehensive view of all key metrics (Average Revenue, Number of Products, Average Price) categorized by Month
+
+     - Chart Type: Matrix Card
+
+### Tools
+|Tool|Purpose|
+|----|-------|
+|Excel|Exploring the data|
+|SQL|Cleaning, testing, and analyzing the data|
+|Power BI|Visualizing the data via interactive dashboards|
+
+### 2. Development
+#### Pseudocode
+This is the general approach in creating this solution from start to finish
+
+  - Get the data
+
+  - Explore the data in Excel
+
+  - Load the data into SQL Server
+
+  - Clean the data with SQL
+  - Test the data with SQL
+  - Visualize the data in Power BI
+  - Generate the findings based on the insights
+  - Write the documentation + commentary
+
+	
+
 
 
