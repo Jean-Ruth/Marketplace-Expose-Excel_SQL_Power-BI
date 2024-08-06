@@ -229,6 +229,10 @@ HAVING COUNT(*) > 1
 ## Visualization
 ### Results
 - What does the dashboard look like?
+    It is an interactive Power BI dashboard that provides insights into the data
+
+
+  You can view and interact with the live dashboard [here]
 
 
 
