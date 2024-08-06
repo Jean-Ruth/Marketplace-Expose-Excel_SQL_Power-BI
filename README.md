@@ -212,5 +212,19 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_online_sales_data'
 ```
 ##### Output
+![Data type check](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Data%20type%20check.png)
+
+#### iv. Duplicate count check
+   ##### SQL Query
+   ```sql
+SELECT transaction_id,
+	COUNT(*) AS duplicate_count
+FROM online_sales_db.`online sales data`
+GROUP BY transaction_id
+HAVING COUNT(*) > 1
+online_sales_db.`online sales data`
+```
+##### Output
+
 
 
