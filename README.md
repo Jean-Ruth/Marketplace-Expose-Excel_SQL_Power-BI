@@ -230,9 +230,17 @@ HAVING COUNT(*) > 1
 ### Results
 - What does the dashboard look like?
     It is an interactive Power BI dashboard that provides insights into the data
-
+  
+![Dashboard](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Power%20BI%20dashboard.png)
 
   You can view and interact with the live dashboard [here]
+
+  ### DAX Measures
+1. Overall Total Revenue
+   
+  ```powerbi
+Overall Total Revenue = SUM('view online_sales_sql'[total_revenue])
+```
 
 
 
