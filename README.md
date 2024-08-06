@@ -177,6 +177,14 @@ payment_method
 FROM online_sales_db.`online sales data`;
 ```
 
+### 3. Testing
+   Here are the data quality tests and validation checks conducted;
+#### Row count check
+   Count the total number of records (or rows) in the SQL View
+   ```sql
+SELECT COUNT(*) AS no_of_rows
+FROM view_online_sales_data;
+```
 	
 
 
