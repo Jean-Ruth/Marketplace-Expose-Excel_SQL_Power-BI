@@ -185,7 +185,8 @@ FROM online_sales_db.`online sales data`;
 SELECT COUNT(*) AS no_of_rows
 FROM view_online_sales_data;
 ```
-	
+Output
+
 
 
 
