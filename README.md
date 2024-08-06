@@ -247,14 +247,14 @@ Avg Revenue = AVERAGE('view online_sales_sql'[total_revenue])
 ```
 
 3. Total Number of Units Sold
-   ```powerbi
-   No of Units sold = SUM('view online_sales_sql'[units_sold])
-   ```
+```powerbi
+No of Units sold = SUM('view online_sales_sql'[units_sold])
+```
 
 4. Average Unit Price
-   ```powerbi
-   Avg Unit Price = AVERAGE('view online_sales_sql'[unit_price])
-   ```
+```powerbi
+Avg Unit Price = AVERAGE('view online_sales_sql'[unit_price])
+```
    
 
 
