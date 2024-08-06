@@ -255,7 +255,23 @@ No of Units sold = SUM('view online_sales_sql'[units_sold])
 ```powerbi
 Avg Unit Price = AVERAGE('view online_sales_sql'[unit_price])
 ```
-   
+
+5. Number of Products
+```powerbi
+No of Products = COUNTROWS('view online_sales_sql')
+```
+
+## Analysis
+### Findings
+- What did we find?
+
+For this analysis, we are going to focus on the questions below to get the information we need
+
+1.	Which 3 product categories have the highest sales revenue?
+2.	Which 3 product categories have the highest number of products sold?
+3.	Which category has the highest revenue per payment method?
+4.	Which category has the highest revenue per region?
+
 
 
 
