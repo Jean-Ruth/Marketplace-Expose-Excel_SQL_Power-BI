@@ -103,7 +103,7 @@ To understand what it should contain, we need to figure out what questions we ne
 
 ### 2. Development
 #### Pseudocode
-This is the general approach in creating this solution from start to finish
+  This is the general approach in creating this solution from start to finish
 
   - Get the data
 
@@ -115,7 +115,27 @@ This is the general approach in creating this solution from start to finish
   - Test the data with SQL
   - Visualize the data in Power BI
   - Generate the findings based on the insights
-  - Write the documentation + commentary
+
+#### Data exploration notes
+  - There are at least 8 columns that contain the data we need for this analysis, which signals we have everything we need from the file
+  - We have exactly the right amount of data than we need, so none of these columns would need to be removed
+
+#### Data Cleaning
+  In the data cleaning phase, the following steps were performed to clean and shape the data into the desired format;
+  - Data loading and inspection
+  - Removing unnecessary columns by only selecting the ones we need
+
+
+Below is a table outlining the constraints on our cleaned dataset:
+|Property|Description|
+|--------|-----------|
+|Number of Rows|240|
+|Number of Columns|8|
+
+And below is a tabular representation of the expected schema for the clean data:
+|Column name|Data type|
+|-----------|---------|
+|order_date|TEXT|
 
 	
 
