@@ -222,7 +222,6 @@ SELECT transaction_id,
 FROM online_sales_db.`online sales data`
 GROUP BY transaction_id
 HAVING COUNT(*) > 1
-online_sales_db.`online sales data`
 ```
 ##### Output
 
