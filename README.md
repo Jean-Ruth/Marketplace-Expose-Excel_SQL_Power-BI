@@ -200,5 +200,17 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_online_sales_data'
 ```
 ##### Output
+![Column count](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Column%20count%20check.png)
+
+#### iii. Data type check
+   ##### SQL Query
+   ```sql
+SELECT 
+COLUMN_NAME,
+DATA_TYPE 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_online_sales_data'
+```
+##### Output
 
 
