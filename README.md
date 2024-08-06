@@ -233,7 +233,7 @@ HAVING COUNT(*) > 1
   
 ![Dashboard](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Power%20BI%20dashboard.png)
 
-  You can view and interact with the live dashboard [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Online%20Sales%20visualization.pbix)
+  You can open, view and interact with the  dashboard in Power BI Desktop [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Online%20Sales%20visualization.pbix)
   ### DAX Measures
 1. Overall Total Revenue
    
