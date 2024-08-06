@@ -187,6 +187,6 @@ FROM view_online_sales_data;
 ```
 Output
 
-
+![Row count](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Row%20count%20check.png)
 
 
