@@ -136,6 +136,46 @@ And below is a tabular representation of the expected schema for the clean data:
 |Column name|Data type|
 |-----------|---------|
 |order_date|TEXT|
+|category|TEXT|
+|product_name|TEXT|
+|units_sold|INTEGER|
+|unit_price|DOUBLE|
+|total_revenue|DOUBLE|
+|region|TEXT|
+|payment_method|TEXT|
+
+#### Transform the data
+
+Removing the unnecessary columns by only selecting the ones we need (removed transaction id column)
+
+```sql
+SELECT
+order_date,
+category,
+product_name,
+units_sold
+unit_price,
+total_revenue,
+region,
+payment_method 
+FROM online_sales_db.`online sales data`;
+```
+
+Creating the SQL View
+```sql
+CREATE VIEW view_online_sales_data AS
+
+SELECT
+order_date,
+category,
+product_name,
+units_sold,
+unit_price,
+total_revenue,
+region,
+payment_method 
+FROM online_sales_db.`online sales data`;
+```
 
 	
 
