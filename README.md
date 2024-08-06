@@ -224,6 +224,14 @@ GROUP BY transaction_id
 HAVING COUNT(*) > 1
 ```
 ##### Output
+![Duplicate records check](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Duplicate%20records%20check.png)
+
+## Visualization
+### Results
+- What does the dashboard look like?
+
+
+
 
 
 
