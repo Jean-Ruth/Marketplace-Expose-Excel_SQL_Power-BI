@@ -681,9 +681,11 @@ Actions:
 i. North America (Electronics, Books):
    - Localized Campaigns: Run targeted ads and promotions in North America focusing on Electronics and Books.
    - Customer Engagement: Increase engagement through local events or online communities.
+
 ii. Europe (Home Appliances, Beauty Products):
    - Regional Promotions: Create region-specific promotions for Home Appliances and Beauty Products.
    - Local Partnerships: Collaborate with local influencers or brands.
+
 iii. Asia (Sports, Clothing):
    - Event-Driven Marketing: Align marketing efforts with local sports events or fashion trends.
    - Localized Content: Develop marketing materials that resonate with Asian markets.
