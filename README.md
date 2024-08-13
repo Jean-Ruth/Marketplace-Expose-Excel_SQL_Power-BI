@@ -244,6 +244,7 @@ HAVING COUNT(*) > 1
 ![Dashboard](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Power%20BI%20dashboard.png)
 
   You can open, view and interact with the  dashboard in Power BI Desktop [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Online%20Sales%20visualization.pbix)
+ 
   ### DAX Measures
 1. Overall Total Revenue
    
@@ -270,6 +271,57 @@ Avg Unit Price = AVERAGE('view online_sales_sql'[unit_price])
 ```powerbi
 No of Products = COUNTROWS('view online_sales_sql')
 ```
+
+6. Rank by Most Products Sold
+```sql
+Rank by Most Products Sold = RANKX(ALL('view online_sales_sql'[category]), CALCULATE(SUM('view online_sales_sql'[units_sold])))
+```
+
+7. Rank by Overall Total Revenue
+```sql
+Rank by Overall Total Revenue = RANKX(ALL('view online_sales_sql'[category]), CALCULATE(SUM('view online_sales_sql'[total_revenue])))
+```
+
+8. Rank by Overall Total Revenue per Payment Method
+```sql
+Rank by Overall Total Revenue per Payment Method = RANKX(ALL('view online_sales_sql'[category]), CALCULATE(SUM('view online_sales_sql'[total_revenue])))
+```
+
+9. Rank by Overall Total Revenue per Region
+```sql
+Rank by Overall Total Revenue per Region = RANKX(ALL('view online_sales_sql'[category]), CALCULATE(SUM('view online_sales_sql'[total_revenue])))
+```
+
+10. Pricing Position of Beauty Products
+```sql
+no above avg = COUNTA('Beauty Products(unit px vs avg px)'[Beauty Pdts px position])
+```
+
+11. Pricing Position of Books category
+```sql
+no above/below avg = COUNTA('Books(unit px vs avg px)'[Books px position])
+```
+
+12. Pricing Position of Clothing category
+```sql
+no above/below avg by Clothing px position = COUNTA('Clothing(unit px vs avg px)'[Price_position])
+```
+
+13. Pricing Position of Electronics category
+```sql
+no above/below avg by Electronics px position = COUNTA('Electronics (unit px vs avg px)'[Price_position])
+```
+
+14. Pricing Position of Home Appliances category
+```sql
+no above/below avg by Home Apliances px position = COUNTA('Home Appliances(unit px vs avg px)'[Price_position])
+```
+
+15. Pricing Position of Sports category
+```sql
+no above/below avg by Sports px position = COUNTA('Sports(unit px vs avg px)'[Price_position])
+``` 
+
 
 ## Analysis
 ### Findings
