@@ -48,16 +48,10 @@ The data needed to achieve our objective is data on Online Sales of a Popular Ma
 
 The data is sourced from Kaggle (an Excel extract), [see here to find it](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data)
 
-## Stages
-- Design
-- Development
-- Testing
-- Visualization
-- Analysis
 
-### 1. Design
+## Design
 
-#### Dashboard components required
+### Dashboard components required
 What should the dashboard contain based on the requirements provided?
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 1.	Which 3 product categories have the highest sales revenue?
@@ -112,8 +106,8 @@ To understand what it should contain, we need to figure out what questions we ne
 |SQL|Cleaning, testing, and analyzing the data|
 |Power BI|Visualizing the data via interactive dashboards|
 
-### 2. Development
-#### Pseudocode
+## Development
+### Pseudocode
   This is the general approach in creating this solution from start to finish
 
   - Get the data
@@ -127,11 +121,11 @@ To understand what it should contain, we need to figure out what questions we ne
   - Visualize the data in Power BI
   - Generate the findings based on the insights
 
-#### Data exploration notes
+### Data exploration notes
   - There are at least 8 columns that contain the data we need for this analysis, which signals we have everything we need from the file
   - We have exactly the right amount of data than we need, so none of these columns would need to be removed
 
-#### Data Cleaning
+### Data Cleaning
   In the data cleaning phase, the following steps were performed to clean and shape the data into the desired format;
   - Data loading and inspection
   - Removing unnecessary columns by only selecting the ones we need
@@ -155,7 +149,7 @@ And below is a tabular representation of the expected schema for the clean data:
 |region|TEXT|
 |payment_method|TEXT|
 
-#### Transform the data
+### Transform the data
 
 Removing the unnecessary columns by only selecting the ones we need (removed transaction id column)
 
@@ -172,7 +166,7 @@ payment_method
 FROM online_sales_db.`online sales data`;
 ```
 
-Creating the SQL View
+### Creating the SQL View
 ```sql
 CREATE VIEW view_online_sales_data AS
 
@@ -188,33 +182,33 @@ payment_method
 FROM online_sales_db.`online sales data`;
 ```
 
-### 3. Testing
+## 3. Testing
    Here are the data quality tests and validation checks conducted;
    
-#### i. Row count check
+### i. Row count check
    Count the total number of records (or rows) in the SQL View
-##### SQL Query
+#### SQL Query
    ```sql
 SELECT COUNT(*) AS no_of_rows
 FROM view_online_sales_data;
 ```
-##### Output
+#### Output
 
 ![Row count](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Row%20count%20check.png)
 
-#### ii. Column count check
+### ii. Column count check
    Count the total number of fields (or columns) in the SQL View
-   ##### SQL Query
+   #### SQL Query
    ```sql
 SELECT COUNT(*) as column_count 
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_online_sales_data'
 ```
-##### Output
+#### Output
 ![Column count](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Column%20count%20check.png)
 
-#### iii. Data type check
-   ##### SQL Query
+### iii. Data type check
+   #### SQL Query
    ```sql
 SELECT 
 COLUMN_NAME,
@@ -222,11 +216,11 @@ DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_online_sales_data'
 ```
-##### Output
+#### Output
 ![Data type check](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Data%20type%20check.png)
 
-#### iv. Duplicate count check
-   ##### SQL Query
+### iv. Duplicate count check
+   #### SQL Query
    ```sql
 SELECT transaction_id,
 	COUNT(*) AS duplicate_count
@@ -234,11 +228,11 @@ FROM online_sales_db.`online sales data`
 GROUP BY transaction_id
 HAVING COUNT(*) > 1
 ```
-##### Output
+#### Output
 ![Duplicate records check](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Duplicate%20records%20check.png)
 
-### 4. Visualization
-#### Results
+## Visualization
+### Results
 - What does the dashboard look like?
     It is an interactive Power BI dashboard that provides insights into the data
   
@@ -246,7 +240,7 @@ HAVING COUNT(*) > 1
 
   You can open, view and interact with the  dashboard in Power BI Desktop [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Online%20Sales%20visualization.pbix)
  
-  #### DAX Measures
+  ### DAX Measures
 1. Overall Total Revenue
    
   ```powerbi
@@ -324,8 +318,8 @@ no above/below avg by Sports px position = COUNTA('Sports(unit px vs avg px)'[Pr
 ``` 
 
 
-### 5. Analysis
-#### Findings
+## 5. Analysis
+### Findings
 - What did we find?
 
 For this analysis, we are going to focus on the questions below to get the information we need
@@ -336,7 +330,7 @@ For this analysis, we are going to focus on the questions below to get the infor
 4.	Which category has the highest revenue per region?
 5.	How many products are above and below the market’s average unit price per category?
 
-##### 1. Which 3 product categories have the highest sales revenue?
+#### 1. Which 3 product categories have the highest sales revenue?
 
    |Category|Overall Total Revenue|
    |--------|---------------------|
@@ -344,7 +338,7 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Home Appliances|$18,646.16|
    |Sports|$14,326.52|
 
-##### 2. Which 3 product categories have the highest number of units sold?
+#### 2. Which 3 product categories have the highest number of units sold?
 
    |Category|Total No. of Units Sold|
    |--------|---------------------|
@@ -352,7 +346,7 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Books|114|
    |Sports|88|
 
-##### 3. Which category has the highest revenue per payment method?
+#### 3. Which category has the highest revenue per payment method?
 
    |Category|Payment Method|Overall Total Revenue|
    |--------|--------------|---------------------|
@@ -360,7 +354,7 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Home Appliances|PayPal|$18,646.16|
    |Clothing|Debit Card|$8,128.93|
 
-##### 4. Which category has the highest revenue per region?
+#### 4. Which category has the highest revenue per region?
 
    |Category|Region|Overall Total Revenue|
    |--------|------|---------------------|
@@ -368,47 +362,50 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Home Appliances|Europe|$18,646.16|
    |Sports|Asia|$14,326.52|
 
-##### 5. How many products are above and below the market’s average unit price per category?
+#### 5. How many products are above and below the market’s average unit price per category?
 
-###### i) Beauty Products
+##### i) Beauty Products
 Category Average Unit price = $61.6
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |13|27|
 
-###### ii) Books
+##### ii) Books
 Category Average Unit price = $16.15
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |14|26|
 
-###### iii) Clothing
+##### iii) Clothing
 Category Average Unit price = $67.54
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |14|26|
 
-###### iv) Electronics
+##### iv) Electronics
 Category Average Unit price = $691.59 
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |13|27|
 
-###### v) Home Appliances
+##### v) Home Appliances
 Category Average Unit price = $320.19  
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |15|25|
 
-###### vi) Sports
+##### vi) Sports
 Category Average Unit price = $261.28   
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |13|27|
+
+### Validation
+
 
