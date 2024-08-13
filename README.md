@@ -60,7 +60,7 @@ The data is sourced from Kaggle (an Excel extract), [see here to find it](https:
 What should the dashboard contain based on the requirements provided?
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 1.	Which 3 product categories have the highest sales revenue?
-2.	Which 3 product categories have the highest number of products sold?
+2.	Which 3 product categories have the highest number of units sold?
 3.	Which category has the highest revenue per payment method?
 4.	Which category has the highest revenue per region?
 5.	How many products are above and below the market’s average unit price per category?
@@ -330,11 +330,51 @@ no above/below avg by Sports px position = COUNTA('Sports(unit px vs avg px)'[Pr
 For this analysis, we are going to focus on the questions below to get the information we need
 
 1.	Which 3 product categories have the highest sales revenue?
-2.	Which 3 product categories have the highest number of products sold?
+2.	Which 3 product categories have the highest number of units sold?
 3.	Which category has the highest revenue per payment method?
 4.	Which category has the highest revenue per region?
+5.	How many products are above and below the market’s average unit price per category?
 
+#### 1.	Which 3 product categories have the highest sales revenue?
 
+   |Category|Overall Total Revenue|
+   |--------|---------------------|
+   |Electronics|$34,982.41|
+   |Home Appliances|$18,646.16|
+   |Sports|$14,326.52|
+
+#### 2.	Which 3 product categories have the highest number of units sold?
+
+   |Category|Total No. of Units Sold|
+   |--------|---------------------|
+   |Clothing|145|
+   |Books|114|
+   |Sports|88|
+
+#### 3.	Which category has the highest revenue per payment method?
+
+   |Category|Payment Method|Overall Total Revenue|
+   |--------|--------------|---------------------|
+   |Electronics|Credit Card|$34,982.41|
+   |Home Appliances|PayPal|$18,646.16|
+   |Clothing|Debit Card|$8,128.93|
+
+#### 4. Which category has the highest revenue per region?
+
+   |Category|Region|Overall Total Revenue|
+   |--------|------|---------------------|
+   |Electronics|North America|$34,982.41|
+   |Home Appliances|Europe|$18,646.16|
+   |Sports|Asia|$14,326.52|
+
+#### 5. How many products are above and below the market’s average unit price per category?
+
+##### i) Beauty Products
+Category Average Unit price = $61.6
+
+|Above Avg price|Below Avg price|
+|---------------|---------------|
+|13|27|
 
 
 
