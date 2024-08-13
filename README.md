@@ -323,8 +323,8 @@ no above/below avg by Sports px position = COUNTA('Sports(unit px vs avg px)'[Pr
 ``` 
 
 
-## Analysis
-### Findings
+### 4. Analysis
+#### Findings
 - What did we find?
 
 For this analysis, we are going to focus on the questions below to get the information we need
@@ -335,7 +335,7 @@ For this analysis, we are going to focus on the questions below to get the infor
 4.	Which category has the highest revenue per region?
 5.	How many products are above and below the market’s average unit price per category?
 
-#### 1.	Which 3 product categories have the highest sales revenue?
+##### 1. Which 3 product categories have the highest sales revenue?
 
    |Category|Overall Total Revenue|
    |--------|---------------------|
@@ -343,7 +343,7 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Home Appliances|$18,646.16|
    |Sports|$14,326.52|
 
-#### 2.	Which 3 product categories have the highest number of units sold?
+##### 2. Which 3 product categories have the highest number of units sold?
 
    |Category|Total No. of Units Sold|
    |--------|---------------------|
@@ -351,7 +351,7 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Books|114|
    |Sports|88|
 
-#### 3.	Which category has the highest revenue per payment method?
+##### 3. Which category has the highest revenue per payment method?
 
    |Category|Payment Method|Overall Total Revenue|
    |--------|--------------|---------------------|
@@ -359,7 +359,7 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Home Appliances|PayPal|$18,646.16|
    |Clothing|Debit Card|$8,128.93|
 
-#### 4. Which category has the highest revenue per region?
+##### 4. Which category has the highest revenue per region?
 
    |Category|Region|Overall Total Revenue|
    |--------|------|---------------------|
@@ -367,44 +367,44 @@ For this analysis, we are going to focus on the questions below to get the infor
    |Home Appliances|Europe|$18,646.16|
    |Sports|Asia|$14,326.52|
 
-#### 5. How many products are above and below the market’s average unit price per category?
+##### 5. How many products are above and below the market’s average unit price per category?
 
-##### i) Beauty Products
+###### i) Beauty Products
 Category Average Unit price = $61.6
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |13|27|
 
-##### ii) Books
+###### ii) Books
 Category Average Unit price = $16.15
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |14|26|
 
-##### iii) Clothing
+###### iii) Clothing
 Category Average Unit price = $67.54
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |14|26|
 
-##### iv) Electronics
+###### iv) Electronics
 Category Average Unit price = $691.59 
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |13|27|
 
-##### v) Home Appliances
+###### v) Home Appliances
 Category Average Unit price = $320.19  
 
 |Above Avg price|Below Avg price|
 |---------------|---------------|
 |15|25|
 
-##### vi) Sports
+###### vi) Sports
 Category Average Unit price = $261.28   
 
 |Above Avg price|Below Avg price|
