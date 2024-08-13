@@ -182,7 +182,7 @@ payment_method
 FROM online_sales_db.`online sales data`;
 ```
 
-## 3. Testing
+## Testing
    Here are the data quality tests and validation checks conducted;
    
 ### i. Row count check
