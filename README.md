@@ -16,6 +16,7 @@ To conduct a comprehensive overview of online sales transactions across differen
 - Identify top-selling products within each category to optimize inventory and marketing strategies
 - Evaluate the performance of specific categories in different regions to tailor marketing campaigns accordingly
 - Investigate the impact of payment methods on sales volume or revenue in order to identify key insights and opportunities for optimization using various KPIs and visualizations in Power BI
+- Evaluate the distribution of products above and below the average unit price to understand its impact on sales performance and guide strategic pricing decisions
 
 KPI Requirements;
 - Overall Total Revenue; The overall revenue generated from all items sold
@@ -62,6 +63,7 @@ To understand what it should contain, we need to figure out what questions we ne
 2.	Which 3 product categories have the highest number of products sold?
 3.	Which category has the highest revenue per payment method?
 4.	Which category has the highest revenue per region?
+5.	How many products are above and below the market’s average unit price per category?
 
 ### Charts Requirements
 1.	Overall Total Revenue by Category
@@ -93,6 +95,14 @@ To understand what it should contain, we need to figure out what questions we ne
      - Objective: Provide a comprehensive view of all key metrics (Average Revenue, Number of Products, Average Price) categorized by Month
 
      - Chart Type: Matrix Card
+       
+5.    Total Number of Products Above/Below the Market’s Average Unit Price by Category
+
+      - Objective: Evaluate the distribution of products above and below the average unit price
+       
+      - Chart Types: Donut and Clustered Bar Chart
+
+
 
 ### Tools
 |Tool|Purpose|
