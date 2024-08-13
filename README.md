@@ -52,6 +52,7 @@ The data is sourced from Kaggle (an Excel extract), [see here to find it](https:
 - Design
 - Development
 - Testing
+- Visualization
 - Analysis
 
 ### 1. Design
@@ -236,8 +237,8 @@ HAVING COUNT(*) > 1
 ##### Output
 ![Duplicate records check](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Duplicate%20records%20check.png)
 
-## Visualization
-### Results
+### 4. Visualization
+#### Results
 - What does the dashboard look like?
     It is an interactive Power BI dashboard that provides insights into the data
   
@@ -245,7 +246,7 @@ HAVING COUNT(*) > 1
 
   You can open, view and interact with the  dashboard in Power BI Desktop [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Online%20Sales%20visualization.pbix)
  
-  ### DAX Measures
+  #### DAX Measures
 1. Overall Total Revenue
    
   ```powerbi
@@ -323,7 +324,7 @@ no above/below avg by Sports px position = COUNTA('Sports(unit px vs avg px)'[Pr
 ``` 
 
 
-### 4. Analysis
+### 5. Analysis
 #### Findings
 - What did we find?
 
