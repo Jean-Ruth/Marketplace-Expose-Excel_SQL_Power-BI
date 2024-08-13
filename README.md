@@ -376,6 +376,38 @@ Category Average Unit price = $61.6
 |---------------|---------------|
 |13|27|
 
+##### ii) Books
+Category Average Unit price = $16.15
 
+|Above Avg price|Below Avg price|
+|---------------|---------------|
+|14|26|
 
+##### iii) Clothing
+Category Average Unit price = $67.54
+
+|Above Avg price|Below Avg price|
+|---------------|---------------|
+|14|26|
+
+##### iv) Electronics
+Category Average Unit price = $691.59 
+
+|Above Avg price|Below Avg price|
+|---------------|---------------|
+|13|27|
+
+##### v) Home Appliances
+Category Average Unit price = $320.19  
+
+|Above Avg price|Below Avg price|
+|---------------|---------------|
+|15|25|
+
+##### vi) Sports
+Category Average Unit price = $261.28   
+
+|Above Avg price|Below Avg price|
+|---------------|---------------|
+|13|27|
 
