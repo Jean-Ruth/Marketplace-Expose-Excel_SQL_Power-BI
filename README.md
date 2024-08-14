@@ -106,6 +106,7 @@ To understand what it should contain, we need to figure out what questions we ne
 |SQL|Cleaning, testing, and analyzing the data|
 |Power BI|Visualizing the data via interactive dashboards|
 
+
 ## Development
 ### Pseudocode
   This is the general approach in creating this solution from start to finish
