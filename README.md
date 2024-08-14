@@ -182,7 +182,7 @@ payment_method
 FROM online_sales_db.`online sales data`;
 ```
 
-You can view Data cleaning and Creating SQL View here
+You can view Data cleaning and Creating SQL View [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Data%20cleaning-online%20sales.sql)
 
 ## Testing
    Here are the data quality tests and validation checks conducted;
