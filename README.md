@@ -60,7 +60,7 @@ To understand what it should contain, we need to figure out what questions we ne
 4.	Which category has the highest revenue per region?
 5.	How many products are above and below the market’s average unit price per category?
 
-### Charts Requirements
+### Chart Requirements
 1.	Overall Total Revenue by Category
 
      - Objective: Identify the performance of different categories in regards to overall total revenue
