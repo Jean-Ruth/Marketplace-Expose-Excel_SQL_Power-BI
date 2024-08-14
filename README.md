@@ -182,6 +182,8 @@ payment_method
 FROM online_sales_db.`online sales data`;
 ```
 
+You can view Data cleaning and Creating SQL View here
+
 ## Testing
    Here are the data quality tests and validation checks conducted;
    
