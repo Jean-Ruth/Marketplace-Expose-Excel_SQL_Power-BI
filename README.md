@@ -256,7 +256,7 @@ HAVING COUNT(*) > 1
 - What does the dashboard look like?
     It is an interactive Power BI dashboard that provides insights into the data
   
-![Dashboard](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Power%20BI%20dashboard.png)
+![Dashboard](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Power%20BI%20Dashboard.png)
 
   You can open, view and interact with the  dashboard in Power BI Desktop [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Online%20Sales%20visualization.pbix)
  
