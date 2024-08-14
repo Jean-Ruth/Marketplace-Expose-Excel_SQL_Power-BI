@@ -107,6 +107,23 @@ To understand what it should contain, we need to figure out what questions we ne
 |Power BI|Visualizing the data via interactive dashboards|
 
 
+### SQL Concepts Applied
+
+- Group By
+- SUM
+- Case Statement
+- Limit
+- Subquery in FROM Statement
+- Order By
+
+
+### Power BI Concepts & Features Applied
+
+- DAX (SUM, AVG, COUNTROWS, COUNTA, RANKX, CALCULATE)
+- Power Query
+- Modelling (Created Parameter (Field) called Metrics)
+- Filters
+
 ## Development
 ### Pseudocode
   This is the general approach in creating this solution from start to finish
