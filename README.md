@@ -555,6 +555,8 @@ ORDER BY category
 LIMIT 200, 40) AS Agg_table6
 ```
 
+Download MySQL Query File for Data Analysis in MySQL [here](https://github.com/Jean-Ruth/Marketplace-Expose/blob/main/Data%20Analysis%20in%20MySQL.sql)
+
 ## Recommendations
 
 - What do we recommend based on the insights gathered?
